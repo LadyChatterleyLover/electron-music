@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home__input {
+  .el-input__inner {
+    border-radius: 24px !important;
+    background: rgb(168, 40, 40);
+    opacity: 0.8;
+    width: 220px;
+    height: 26px !important;
+  }
+}
+
+.banner__active {
+  .el-carousel__indicators--outside button {
+    width: 18px;
+    background: red !important;
+  }
+}
+.home__tab {
+  .el-tabs__nav-wrap {
+    display: flex;
+    justify-content: center;
+  }
+  .el-tabs__item.is-active {
+    color: rgb(198,47,47);
+  }
+  .el-tabs__active-bar {
+    background: rgb(198,47,47);
+  }
+  .el-tabs__item {
+    &:hover {
+      color: rgb(198,47,47);
+    }
+  }
+}
